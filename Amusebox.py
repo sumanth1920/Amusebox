@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
  
-expirydate = datetime.date(2022, 11, 10)
-#expirydate = datetime.date(2021, 8, 30)
+expirydate = datetime.date(2023, 11, 26)
+#expirydate = datetime.date(2023, 8, 30)
 today=date.today()
 def hero():
  
@@ -140,26 +140,21 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
  
     if (True):
-            period=385
+            period=240
             hero()
     elif(False):
-            period=342
+            period=222
             hero()
     elif(False):
-            period=343
+            period=223
             hero()
     elif(now>Final and now<Finalend):
-            period=400
+            period=300
             hero()
     else:
         banner='figlet AMUSEBOX'
         print("Hi!! Thanks for buying the hack")
-        print("----------Your play time-----------")
-        print(" Yesterday Server Error , So Play today" )
-        print("2nd Sept 2021, 08:00 PM- 08:30 PM")
-        print("Please play on the given time, and ")
-        print("If you think it is an error contact")
-        print(" admin on telegram @Hacker6363 ")
+        
  
  
  
